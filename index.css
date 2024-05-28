@@ -1,0 +1,96 @@
+* {
+    margin: 80;
+    padding: 80;
+    box-sizing: border-box;
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+}
+
+.container2 video {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover; /* Ensures the video covers the entire container */
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+}
+.di{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+}
+.di input[type="text"]{
+    height: 4rem;
+    width: 20rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-right: 25px;
+    border: none;
+    background-color: transparent;
+    padding: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 5px 5px black;
+    color: black;
+}
+.di input[type="text"]:after{
+    background-color: rgb(65, 74, 76);
+}
+.di input[type="submit"]{
+    height: 4rem;
+    color: black;
+    width: 10rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    border: 2px none transparent;
+    box-shadow: 0 0 5px 5px black;
+    border-radius: 30px;
+}
+.display{
+    background-color: transparent;
+    width: 520px;
+    text-align: center;
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px 5px black;
+    border-radius: 25px;
+}
+.wrapper{
+    height: 680px;
+}
+.wrapper h2{
+    color: black;
+    text-align: center;
+    font-size:  40px;
+    padding: 0;
+}
+.wrapper p{
+    padding-left: 40px;
+    color: black;
+    text-align: left;
+    font-size: 40px;
+
+}
+.wrapper h2 span{
+    font-size: 40px;
+    color: black;
+}
+.wrapper p span{
+    font-size: 40px;
+    color: black;
+}
